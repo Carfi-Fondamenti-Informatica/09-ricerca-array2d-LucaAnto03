@@ -9,16 +9,12 @@ char nome [1][20] = {};
 nome [0][19]='\0';
 int count=0;
 
-
 for (int i=0; i<10; i++){
     a [i][19] = '\0';
 }
 
 cout << "Inserire 10 nomi: " << endl;
-
-for (int i=0; i<10; i++) {
-    cin >> a[i];
-    }
+listanomi (a);
 
 cout << "Inserire nome da cercare: "<< endl;
 cin >> nome [0] ;
